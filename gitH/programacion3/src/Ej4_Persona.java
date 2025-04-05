@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.time.Period;
 
-public class Persona {
+public class Ej4_Persona {
     String nombre;
     LocalDate fechaNac;
     Color colorFavorito;
@@ -25,10 +25,10 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "{" +
-                "nombre:'" + nombre + '\'' +
-                ", fechaNac:" + fechaNac +
-                ", colorFavorito:" + colorFavorito +
-                "}\n";
+        return //"{\n" +
+                "\tnombre:'" + nombre + '\'' +"\n"+
+                "\tfechaNac:" + fechaNac;// + //"\n"+
+                //"\tcolorFavorito:" + colorFavorito +"\n"+
+                //" }";
     }
 }
