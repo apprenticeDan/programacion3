@@ -1,10 +1,10 @@
 import java.util.Scanner;
-  public class Ejercicio9 {
-  Ej9_Dia[] dias;
+  public class Ejercicio_09 {
+  Dia[] dias;
   Scanner sc;
 
-    public Ejercicio9() {
-      dias = new Ej9_Dia[5];
+    public Ejercicio_09() {
+      dias = new Dia[5];
       sc = new Scanner(System.in);
     }
 
@@ -18,7 +18,7 @@ import java.util.Scanner;
         double tMax = sc.nexDouble();
 
         double med = (tMax+tMin)/2;
-        dias[i] = new Ej9_Dia(tMin, tMax, med);
+        dias[i] = new Dia(tMin, tMax, med);
       }
 
       System.out.println("temperaturas medias de 5 días:");
@@ -31,7 +31,7 @@ import java.util.Scanner;
       for (int i = 0; i < dias.length; i++) {
         for (int j = 0; i < dias.length - 1 -i; j++) {
           if(dias[j].getTMin() > dias[j+1].getTMin()) {
-            Ej9_Dia aux = dias[j];
+            Dia aux = dias[j];
             dias[j] = dias[j+1];
             dias[j+1] = aux;
         }}
