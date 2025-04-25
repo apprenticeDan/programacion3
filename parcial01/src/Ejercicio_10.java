@@ -1,8 +1,8 @@
-public class Ejercicio10_matriz {
+public class Ejercicio_10 {
 int[][] matriz;
 
 
-  public Ejercicio10_matriz(){
+  public Ejercicio_10(){
     matriz = new int[][];
   }
   public void ejecutar() {
