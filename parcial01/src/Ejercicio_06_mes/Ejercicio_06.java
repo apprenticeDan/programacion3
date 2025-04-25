@@ -18,7 +18,7 @@ public Ejercicio_06() {
   public void ejecutar() {
     System.out.println("Introduzca el num de mes": );
     int numero = scanner.nextInt();
-    Ej6_Mes mes = meses[numero - 1];
+    Mes mes = meses[numero - 1];
     /*System.out.println(mes.getNom());
     System.out.println(mes.getDias());*/
     System.out.println(mes);  // método toString
