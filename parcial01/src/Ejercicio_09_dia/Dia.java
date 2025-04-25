@@ -1,9 +1,9 @@
-public class Ej9_Dia {
+public class Dia {
   double tempMin;
   double tempMax;
   double tempMedia;
 
-  public Ej9_Dia(double min, double max, double media) {
+  public Dia(double min, double max, double media) {
     tempMin = min;
     tempMax = max;
     tempMedia = media;
@@ -15,5 +15,4 @@ public class Ej9_Dia {
   
   public double getTMedia() { return this.tempMedia;}
   public double getTMin() { return this.tempMin;}
-
 }
