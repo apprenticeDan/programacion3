@@ -45,8 +45,8 @@ public class Ej4_Main {
     public static void burbuja(ArrayList<Ej4_Estudiante> estudiantes) {
         for (int i = 0; i < estudiantes.size(); i++) {
             for (int j = 0; j < estudiantes.size() - i - 1; j++) {
-                if (Persona.compararPorEdad(estudiantes.get(j).datosPersonales, estudiantes.get(j + 1).datosPersonales)) {
-                    Estudiante auxi = estudiantes.get(j);
+                if (Ej4_Persona.compararPorEdad(estudiantes.get(j).datosPersonales, estudiantes.get(j + 1).datosPersonales)) {
+                    Ej4_Estudiante auxi = estudiantes.get(j);
                     estudiantes.set(j, estudiantes.get(j+1));
                     estudiantes.set(j+1, auxi);
                 }
