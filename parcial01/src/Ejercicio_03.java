@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Ejercicio_03 {
     int[] notas;
     Scanner scanner;
 
-    public Ejercicio3() {
+    public Ejercicio_03() {
         notas = new int[5];
         scanner = new Scanner(System.in);
     }
@@ -29,8 +29,6 @@ public class Ejercicio3 {
             }
             suma =  suma + notas[i];
         }
-
         System.out.printf("mínimo: %d%nmáximo: %d%npromedio: %.2f%n",min, max, (0f+suma)/ notas.length);
     }
-
 }
