@@ -1,8 +1,8 @@
-public class Ej6_Mes {
+public class Mes {
   int numero;
   String nombre;
   int cantidadDias;
-public Ej6_Mes(int num, String nom, int dias) {
+public Mes(int num, String nom, int dias) {
   this.numero = num;
   this.nombre = nom;
   this.cantidadDias dias;
