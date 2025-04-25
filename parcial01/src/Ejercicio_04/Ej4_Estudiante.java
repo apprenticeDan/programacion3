@@ -1,10 +1,10 @@
 public class Ej4_Estudiante {
-    Persona datosPersonales;
+    Ej4_Persona datosPersonales;
     int estudianteId;
     int promedio;
 
 
-    public Estudiante(Persona datos_, int id_, int promedio_) {
+    public Ej4_Estudiante(Persona datos_, int id_, int promedio_) {
         datosPersonales = datos_;
         estudianteId = id_;
         promedio = promedio_;
