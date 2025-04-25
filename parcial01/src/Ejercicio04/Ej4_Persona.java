@@ -4,11 +4,11 @@ import java.time.Period;
 public class Ej4_Persona {
     String nombre;
     LocalDate fechaNac;
-    Color colorFavorito;
+    Ej4_Color colorFavorito;
 
-    public Persona(){    }
+    public Ej4_Persona(){    }
 
-    public Persona(String nombre_, LocalDate nacimiento_, Color favorito_){
+    public Ej4_Persona(String nombre_, LocalDate nacimiento_, Ej4_Color favorito_){
         nombre = nombre_;
         fechaNac = nacimiento_;
         colorFavorito = favorito_;
