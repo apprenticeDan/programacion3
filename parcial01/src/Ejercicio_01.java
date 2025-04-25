@@ -1,7 +1,7 @@
-public class Ejercicio1 {
+public class Ejercicio_01 {
     int[] vector;
 
-    public Ejercicio1() {
+    public Ejercicio_01() {
         vector = new int[10];
         for (int i = 0; i < vector.length; i++) {
             vector[i] = (int) (Math.random()* 10 + 1) ;
@@ -17,6 +17,4 @@ public class Ejercicio1 {
             System.out.printf("vector_numeros[%d]: %d, cuadrado: %d, cubo: %d%n",i,numero,cuadrado,cubo);
         }
     }
-
-
 }
