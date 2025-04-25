@@ -1,9 +1,11 @@
-public class Ejercicio6_Mes {
-  Ej6_Mes[] meses;
+import java.utils.Scanner;
+
+public class Ejercicio_06 {
+  Mes[] meses;
   Scanner scanner;
  
-public Ejercicio6_Mes() {
-  Ej6_Mes[] meses = new Ej6_Mes(){
+public Ejercicio_06() {
+  Mes[] meses = new Mes[]{
     new Mes(1,"Enero",31),new Mes(2,"Febrero",28), 
     new Mes(3,"Marzo",31),new Mes(4,"Abril",30),
     new Mes(5,"Mayo",31),new Mes(6,"Junio",30),
