@@ -1,11 +1,12 @@
-public class Ejercicio7_suma {
+import java.utils.Scanner;
+public class Ejercicio_07 {
   int[] vec1;
   int[] vec2;
   int[] vec3;
 
   Scanner sc;
 
-  public Ejercicio7_suma(){
+  public Ejercicio_07(){
     int n = 5;
     vec1 = new int[5];
     vec2 = new int[5];
