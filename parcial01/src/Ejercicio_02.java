@@ -1,7 +1,7 @@
-public class Ejercicio2 {
+public class Ejercicio_02 {
     int[] vector;
 
-    public Ejercicio2() {
+    public Ejercicio_02() {
         vector = new int[6];
         for (int i = 0; i < vector.length; i++) {
             vector[i] = (int) (Math.random()* 100 + 1) ;
