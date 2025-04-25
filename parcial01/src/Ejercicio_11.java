@@ -1,6 +1,6 @@
-public class Ejercicio11_diagonal {
+public class Ejercicio_11 {
   int[][] diagonal;
-  public Ejercicio11_diagonal() {
+  public Ejercicio_11() {
     diagonal = new int[5][5];
   }
 
