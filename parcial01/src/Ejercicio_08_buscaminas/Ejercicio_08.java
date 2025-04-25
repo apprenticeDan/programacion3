@@ -1,12 +1,12 @@
 import java.util.Objects;
 
-public class Ej5_BuscaMinas {
+public class Ejercicio_08 {
     int columnas;
     int filas;
     int numMinas;
     Integer[][] tablero;
 
-    public Ej5_BuscaMinas(int col, int fil, int minas) {
+    public Ejercicio_08(int col, int fil, int minas) {
         if (col > 1 && fil > 1) {
             columnas = col;
             filas = fil;
@@ -100,6 +100,4 @@ public class Ej5_BuscaMinas {
             }
         }
     }
-
-
 }
