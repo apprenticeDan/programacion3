@@ -1,7 +1,7 @@
-public class Ejercicio5 {
+public class Ejercicio_05 {
   int[] vector;
 
-  public Ejercicio5() {
+  public Ejercicio_05() {
     vector = new int[10];  
   }
 
